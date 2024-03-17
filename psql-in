@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PGPASSWORD=bar
+psql ${DB_NAME-foos} -U foo
